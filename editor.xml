@@ -1,3 +1,6 @@
 <application>
   <component name="LiveEditOptions" restartIfHotSwapFailed="true" />
+  <component name="XmlEditorOptions">
+    <option name="insertQuotesForAttributeValue" value="false" />
+  </component>
 </application>
