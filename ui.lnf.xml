@@ -2,5 +2,6 @@
   <component name="UISettings">
     <option name="HIDE_TOOL_STRIPES" value="false" />
     <option name="SHOW_MEMORY_INDICATOR" value="true" />
+    <option name="ACTIVATE_MRU_EDITOR_ON_CLOSE" value="true" />
   </component>
 </application>
