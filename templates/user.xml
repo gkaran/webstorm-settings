@@ -1,0 +1,13 @@
+<templateSet group="user">
+  <template name="ell" value="Ember.Logger.log($printable$);$END$" description="Ember.Logger.log" toReformat="true" toShortenFQNames="true">
+    <variable name="printable" expression="" defaultValue="" alwaysStopAt="true" />
+    <context />
+  </template>
+  <template name="$epromise" value="return new Ember.RSVP.Promise((resolve, reject) =&gt; {&#10;  $END$&#10;});" description="return a new Ember RSVP Promise" toReformat="false" toShortenFQNames="true">
+    <context />
+  </template>
+  <template name="$tg" value="this.get('$PROPERTY$')$END$" description="this.get('...')" toReformat="false" toShortenFQNames="true">
+    <variable name="PROPERTY" expression="" defaultValue="" alwaysStopAt="true" />
+    <context />
+  </template>
+</templateSet>
