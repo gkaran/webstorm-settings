@@ -1,7 +1,6 @@
 <templateSet group="React">
   <template name="reducer" value="// ------------------------------------&#10;// Constants&#10;// ------------------------------------&#10;$END$&#10;&#10;export const actions = {};&#10;&#10;// ------------------------------------&#10;// Action Handlers&#10;// ------------------------------------&#10;const ACTION_HANDLERS = {};&#10;&#10;// ------------------------------------&#10;// Reducer&#10;// ------------------------------------&#10;const initialState = {};&#10;export default function $NAME$Reducer(state = initialState, action) {&#10;  const handler = ACTION_HANDLERS[action.type];&#10;  &#10;  return handler ? handler(state, action): state;&#10;}" description="Create a reducer sceleton" toReformat="false" toShortenFQNames="true">
     <variable name="NAME" expression="" defaultValue="" alwaysStopAt="true" />
-    <context />
   </template>
   <template name="ah" value="[$ACTION$]: (state, action) =&gt; $END$" description="Action handler" toReformat="false" toShortenFQNames="true">
     <variable name="ACTION" expression="" defaultValue="" alwaysStopAt="true" />
@@ -29,7 +28,6 @@
     <variable name="CONTAINER" expression="" defaultValue="" alwaysStopAt="true" />
     <variable name="REDUCER" expression="" defaultValue="" alwaysStopAt="true" />
     <variable name="KEY" expression="" defaultValue="" alwaysStopAt="true" />
-    <context />
   </template>
   <template name="sgf" value="function *$FUNCTION$ (action) {&#10;  try {&#10;    const data = yield call($ACTION$);&#10;    yield put({ type: $ONSUCCESS$, payload: { data } });&#10;  } catch (error) {&#10;    yield put({ type: $ONERROR$, payload: { error } });&#10;  }&#10;}" description="Saga fetch generation function" toReformat="false" toShortenFQNames="true">
     <variable name="FUNCTION" expression="" defaultValue="" alwaysStopAt="true" />
@@ -40,9 +38,7 @@
       <option name="JAVA_SCRIPT" value="true" />
     </context>
   </template>
-  <template name="rrd" value="import Immutable from 'immutable';&#10;import { put, call } from 'redux-saga/effects';&#10;import { takeLatest } from 'redux-saga';&#10;&#10;// ------------------------------------&#10;// Constants&#10;// ------------------------------------&#10;&#10;// ------------------------------------&#10;// Actions&#10;// ------------------------------------&#10;&#10;export const actions = {&#10;  &#10;};&#10;&#10;// ------------------------------------&#10;// Sagas&#10;// ------------------------------------&#10;&#10;export const sagas = [&#10;  &#10;];&#10;&#10;// ------------------------------------&#10;// Action Handlers&#10;// ------------------------------------&#10;const ACTION_HANDLERS = {&#10;  &#10;};&#10;&#10;// ------------------------------------&#10;// Reducer&#10;// ------------------------------------&#10;const initialState = Immutable.Map({&#10;  &#10;});&#10;&#10;export default function reducer (state = initialState, action) {&#10;  const handler = ACTION_HANDLERS[action.type];&#10;&#10;  return handler ? handler(state, action) : state;&#10;}&#10;" description="React reducer with sagas" toReformat="false" toShortenFQNames="true">
-    <context />
-  </template>
+  <template name="rrd" value="import Immutable from 'immutable';&#10;import { put, call } from 'redux-saga/effects';&#10;import { takeLatest } from 'redux-saga';&#10;&#10;// ------------------------------------&#10;// Constants&#10;// ------------------------------------&#10;&#10;// ------------------------------------&#10;// Actions&#10;// ------------------------------------&#10;&#10;export const actions = {&#10;  &#10;};&#10;&#10;// ------------------------------------&#10;// Sagas&#10;// ------------------------------------&#10;&#10;export const sagas = [&#10;  &#10;];&#10;&#10;// ------------------------------------&#10;// Action Handlers&#10;// ------------------------------------&#10;const ACTION_HANDLERS = {&#10;  &#10;};&#10;&#10;// ------------------------------------&#10;// Reducer&#10;// ------------------------------------&#10;const initialState = Immutable.Map({&#10;  &#10;});&#10;&#10;export default function reducer (state = initialState, action) {&#10;  const handler = ACTION_HANDLERS[action.type];&#10;&#10;  return handler ? handler(state, action) : state;&#10;}&#10;" description="React reducer with sagas" toReformat="false" toShortenFQNames="true" />
   <template name="rpi" value="$PROPERTY$: React.PropTypes.instanceOf($INSTANCE$)$END$" description="React.PropTypes.instanceOf" toReformat="false" toShortenFQNames="true">
     <variable name="PROPERTY" expression="" defaultValue="" alwaysStopAt="true" />
     <variable name="INSTANCE" expression="" defaultValue="" alwaysStopAt="true" />
