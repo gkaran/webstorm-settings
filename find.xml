@@ -2,10 +2,11 @@
   <component name="FindSettings">
     <option name="customScope" value="Project Files" />
     <option name="defaultScopeName" value="Project Files" />
+    <option name="wholeWordsOnly" value="true" />
+    <option name="WHOLE_WORDS_ONLY" value="true" />
     <option name="SEARCH_SCOPE" value="Project Files" />
     <recentFileMasks>
       <mask>*.properties</mask>
-      <mask>*.html</mask>
       <mask>*.jsp</mask>
       <mask>*.xml</mask>
       <mask>*.java</mask>
@@ -15,6 +16,7 @@
       <mask>*.mxml</mask>
       <mask>*.scss</mask>
       <mask>*.hbs</mask>
+      <mask>*.html</mask>
     </recentFileMasks>
   </component>
 </application>
