@@ -42,8 +42,12 @@
           <option name="url" value="https://github.com/gkaran/verdaccio.git" />
           <option name="userName" value="" />
         </UrlAndUserName>
+        <UrlAndUserName>
+          <option name="url" value="https://github.com/gkaran/advent-of-code-2017.git" />
+          <option name="userName" value="" />
+        </UrlAndUserName>
       </list>
     </option>
-    <option name="cloneParentDir" value="C:\gitswarm" />
+    <option name="cloneParentDir" value="C:\temp-projects" />
   </component>
 </application>
