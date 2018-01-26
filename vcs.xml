@@ -50,6 +50,10 @@
           <option name="url" value="git@gitswarm.foodtecsolutions.com:foodtec/ngx-web-api.git" />
           <option name="userName" value="" />
         </UrlAndUserName>
+        <UrlAndUserName>
+          <option name="url" value="git@gitswarm.foodtecsolutions.com:foodtec/moka.git" />
+          <option name="userName" value="" />
+        </UrlAndUserName>
       </list>
     </option>
     <option name="cloneParentDir" value="C:\gitswarm" />
