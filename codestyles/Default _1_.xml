@@ -26,7 +26,7 @@
     <option name="USE_DOUBLE_QUOTES" value="false" />
     <option name="IMPORTS_WRAP" value="1" />
     <option name="IMPORT_SORT_MODULE_NAME" value="true" />
-    <option name="BLACKLIST_IMPORTS" value="rxjs,rxjs/operator,rxjs/operators" />
+    <option name="BLACKLIST_IMPORTS" value="rxjs,rxjs/operator,rxjs/operators,rxjs/operator/*" />
   </TypeScriptCodeStyleSettings>
   <XML>
     <option name="XML_LEGACY_SETTINGS_IMPORTED" value="true" />
