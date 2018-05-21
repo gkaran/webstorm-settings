@@ -5,7 +5,7 @@
     <option name="SECONDARY_FONT_FAMILY" value="Hack" />
   </component>
   <component name="EditorSettings">
-    <option name="USE_SOFT_WRAPS" value="CONSOLE" />
+    <option name="USE_SOFT_WRAPS" value="" />
     <option name="IS_CAMEL_WORDS" value="true" />
   </component>
   <component name="LiveEditOptions" restartIfHotSwapFailed="true" />
