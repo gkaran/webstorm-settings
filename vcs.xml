@@ -74,6 +74,10 @@
           <option name="url" value="git@gitswarm.foodtecsolutions.com:foodtec/fmv-dashboard.git" />
           <option name="userName" value="" />
         </UrlAndUserName>
+        <UrlAndUserName>
+          <option name="url" value="git@gitswarm.foodtecsolutions.com:foodtec/marketing-home.git" />
+          <option name="userName" value="" />
+        </UrlAndUserName>
       </list>
     </option>
     <option name="cloneParentDir" value="C:\gitswarm" />
