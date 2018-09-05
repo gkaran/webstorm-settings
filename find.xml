@@ -11,9 +11,9 @@
     <mask>*.as</mask>
     <mask>*.css</mask>
     <mask>*.mxml</mask>
-    <mask>*.ts</mask>
     <mask>package.json</mask>
     <mask>*.html</mask>
     <mask>*.spec.ts</mask>
+    <mask>*.ts</mask>
   </component>
 </application>
