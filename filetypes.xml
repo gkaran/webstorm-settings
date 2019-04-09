@@ -3,6 +3,7 @@
     <extensionMap>
       <mapping pattern=".gitignone" type="PLAIN_TEXT" />
       <mapping pattern=".npmrc" type="PLAIN_TEXT" />
+      <mapping ext="conf" type="PLAIN_TEXT" />
     </extensionMap>
   </component>
 </application>
