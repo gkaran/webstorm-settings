@@ -94,8 +94,12 @@
           <option name="url" value="git@gitswarm.foodtecsolutions.com:foodtec/kiosk-theme-editor.git" />
           <option name="userName" value="" />
         </UrlAndUserName>
+        <UrlAndUserName>
+          <option name="url" value="ssh://git@gitlab.foodtecsolutions.com:2222/fts/pdirect/scoreboard.git" />
+          <option name="userName" value="" />
+        </UrlAndUserName>
       </list>
     </option>
-    <option name="cloneParentDir" value="C:\gitswarm" />
+    <option name="cloneParentDir" value="C:\gitlab" />
   </component>
 </application>
