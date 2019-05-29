@@ -102,6 +102,10 @@
           <option name="url" value="git@gitswarm.foodtecsolutions.com:foodtec/customer-facing-display.git" />
           <option name="userName" value="" />
         </UrlAndUserName>
+        <UrlAndUserName>
+          <option name="url" value="http://github.com" />
+          <option name="userName" value="gkaran" />
+        </UrlAndUserName>
       </list>
     </option>
     <option name="cloneParentDir" value="C:\gitswarm" />
